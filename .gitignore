@@ -1,0 +1,33 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+
+# Per-session binaries (run via `go run` in dev)
+agents/*/s0*
+agents/*/s_full*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+.turbo/
+*.tsbuildinfo
+.npm/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Skill scratch (contains the shallow-cloned upstream — do NOT push)
+.learn/

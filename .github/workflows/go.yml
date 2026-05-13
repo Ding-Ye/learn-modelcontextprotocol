@@ -1,0 +1,52 @@
+name: go
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "agents/**"
+      - "go.work"
+      - ".github/workflows/go.yml"
+  pull_request:
+    paths:
+      - "agents/**"
+      - "go.work"
+      - ".github/workflows/go.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        session:
+          - s01-loop
+          - s02-tool-registry
+          - s03-skills
+          - s04-session
+          - s05-memory
+          - s06-plugins-curator
+          - s07-mcp
+          - s08-terminal-backends
+          - s09-multiprocess
+          - s10-platforms
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+          cache-dependency-path: agents/${{ matrix.session }}/go.sum
+      - name: vet
+        run: go vet ./...
+        working-directory: agents/${{ matrix.session }}
+      - name: build
+        run: go build ./...
+        working-directory: agents/${{ matrix.session }}
+      - name: test
+        run: |
+          if [ -n "$(find . -name '*_test.go')" ]; then
+            go test ./...
+          else
+            echo "no tests yet for ${{ matrix.session }}"
+          fi
+        working-directory: agents/${{ matrix.session }}
