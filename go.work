@@ -2,4 +2,8 @@ go 1.22
 
 use (
 	./agents/s01-min-loop
+	./agents/s02-initialize
+	./agents/s03-tools
+	./agents/s04-resources
+	./agents/s05-prompts
 )

@@ -17,10 +17,10 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 | #     | Chapter                                              | Status |
 |-------|------------------------------------------------------|--------|
 | s01   | Minimum loop: JSON-RPC + stdio framing               | ✅     |
-| s02   | Initialize handshake & capabilities                  | ⏳     |
-| s03   | tools/list and tools/call                            | ⏳     |
-| s04   | Resources: read, templates, subscribe                | ⏳     |
-| s05   | Prompts and completion/complete                      | ⏳     |
+| s02   | Initialize handshake & capabilities                  | ✅     |
+| s03   | tools/list and tools/call                            | ✅     |
+| s04   | Resources: read, templates, subscribe                | ✅     |
+| s05   | Prompts and completion/complete                      | ✅     |
 | s06   | Reverse-direction LLM: sampling                      | ⏳     |
 | s07   | Roots and elicitation (form + URL)                   | ⏳     |
 | s08   | Streamable HTTP transport                            | ⏳     |

@@ -28,7 +28,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "初始化握手与能力协商",
       en: "Initialize handshake & capabilities",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s03-tools",
@@ -37,7 +37,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "tools/list 与 tools/call",
       en: "tools/list and tools/call",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s04-resources",
@@ -46,7 +46,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "资源读取、模板与订阅",
       en: "Resources: read, templates, subscribe",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s05-prompts",
@@ -55,7 +55,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "提示模板与参数补全",
       en: "Prompts and completion/complete",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s06-sampling",

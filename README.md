@@ -17,10 +17,10 @@ MCP（Model Context Protocol）是 Anthropic 主导、社区共建的开放 JSON
 | #     | 章节                                        | 状态 |
 |-------|---------------------------------------------|------|
 | s01   | 最小回路：JSON-RPC 与 stdio 帧              | ✅   |
-| s02   | 初始化握手与能力协商                        | ⏳   |
-| s03   | tools/list 与 tools/call                    | ⏳   |
-| s04   | 资源读取、模板与订阅                        | ⏳   |
-| s05   | 提示模板与参数补全                          | ⏳   |
+| s02   | 初始化握手与能力协商                        | ✅   |
+| s03   | tools/list 与 tools/call                    | ✅   |
+| s04   | 资源读取、模板与订阅                        | ✅   |
+| s05   | 提示模板与参数补全                          | ✅   |
 | s06   | 反向 LLM 请求：sampling                     | ⏳   |
 | s07   | 根目录与表单/URL 引导                        | ⏳   |
 | s08   | Streamable HTTP 传输                         | ⏳   |
