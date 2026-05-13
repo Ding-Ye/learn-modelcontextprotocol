@@ -24,9 +24,9 @@ MCP（Model Context Protocol）是 Anthropic 主导、社区共建的开放 JSON
 | s06   | 反向 LLM 请求：sampling                     | ✅   |
 | s07   | 根目录与表单/URL 引导                        | ✅   |
 | s08   | Streamable HTTP 传输                         | ✅   |
-| s_full| 端到端集成穿刺                              | ⏳   |
-| App A | 附录 A · 为何 JSON-RPC + 日期版本           | ⏳   |
-| App B | 附录 B · 上游源码导读地图                   | ⏳   |
+| s_full| 端到端集成穿刺                              | ✅   |
+| App A | 附录 A · 为何 JSON-RPC + 日期版本           | ✅   |
+| App B | 附录 B · 上游源码导读地图                   | ✅   |
 
 ## 快速开始 / Quickstart
 

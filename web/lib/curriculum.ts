@@ -91,7 +91,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "端到端集成穿刺",
       en: "End-to-end integration trace",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "appendix-a-design-rationale",
@@ -100,7 +100,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "附录 A · 为何 JSON-RPC + 日期版本",
       en: "Appendix A · Why JSON-RPC & date-based versioning",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "appendix-b-upstream-map",
@@ -109,7 +109,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "附录 B · 上游源码导读地图",
       en: "Appendix B · Upstream source-reading map",
     },
-    available: false,
+    available: true,
   },
 ];
 
