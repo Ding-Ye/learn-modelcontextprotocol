@@ -21,9 +21,9 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 | s03   | tools/list and tools/call                            | ✅     |
 | s04   | Resources: read, templates, subscribe                | ✅     |
 | s05   | Prompts and completion/complete                      | ✅     |
-| s06   | Reverse-direction LLM: sampling                      | ⏳     |
-| s07   | Roots and elicitation (form + URL)                   | ⏳     |
-| s08   | Streamable HTTP transport                            | ⏳     |
+| s06   | Reverse-direction LLM: sampling                      | ✅     |
+| s07   | Roots and elicitation (form + URL)                   | ✅     |
+| s08   | Streamable HTTP transport                            | ✅     |
 | s_full| End-to-end integration trace                         | ⏳     |
 | App A | Appendix A · Why JSON-RPC & date-based versioning    | ⏳     |
 | App B | Appendix B · Upstream source-reading map             | ⏳     |

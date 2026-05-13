@@ -6,4 +6,7 @@ use (
 	./agents/s03-tools
 	./agents/s04-resources
 	./agents/s05-prompts
+	./agents/s06-sampling
+	./agents/s07-roots-elicitation
+	./agents/s08-streamable-http
 )

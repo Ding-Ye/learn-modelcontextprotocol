@@ -64,7 +64,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "反向 LLM 请求：sampling",
       en: "Reverse-direction LLM: sampling",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s07-roots-elicitation",
@@ -73,7 +73,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "根目录与表单/URL 引导",
       en: "Roots and elicitation",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s08-streamable-http",
@@ -82,7 +82,7 @@ export const CURRICULUM: ChapterMeta[] = [
       zh: "Streamable HTTP 传输",
       en: "Streamable HTTP transport",
     },
-    available: false,
+    available: true,
   },
   {
     slug: "s_full-integration",
