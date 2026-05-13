@@ -13,6 +13,15 @@ export type ChapterMeta = {
 
 export const CURRICULUM: ChapterMeta[] = [
   {
+    slug: "multi-model",
+    num: "M",
+    title: {
+      zh: "多模型接入指南（DeepSeek / Qwen / OpenAI / 自托管）",
+      en: "Multi-model guide (DeepSeek / Qwen / OpenAI / self-hosted)",
+    },
+    available: true,
+  },
+  {
     slug: "s01-min-loop",
     num: "s01",
     title: {

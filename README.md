@@ -16,6 +16,7 @@ MCP（Model Context Protocol）是 Anthropic 主导、社区共建的开放 JSON
 
 | #     | 章节                                        | 状态 |
 |-------|---------------------------------------------|------|
+| M     | 多模型接入指南（DeepSeek / Qwen / 自托管）  | ✅   |
 | s01   | 最小回路：JSON-RPC 与 stdio 帧              | ✅   |
 | s02   | 初始化握手与能力协商                        | ✅   |
 | s03   | tools/list 与 tools/call                    | ✅   |

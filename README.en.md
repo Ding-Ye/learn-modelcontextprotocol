@@ -16,6 +16,7 @@ Each chapter is ≤ 1000 lines of Go and is its own Go module (`agents/sNN-*/`, 
 
 | #     | Chapter                                              | Status |
 |-------|------------------------------------------------------|--------|
+| M     | Multi-model guide (DeepSeek / Qwen / self-hosted)    | ✅     |
 | s01   | Minimum loop: JSON-RPC + stdio framing               | ✅     |
 | s02   | Initialize handshake & capabilities                  | ✅     |
 | s03   | tools/list and tools/call                            | ✅     |
